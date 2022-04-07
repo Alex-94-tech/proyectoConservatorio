@@ -1,0 +1,152 @@
+*{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 200;
+    overflow: auto;
+}
+
+/*
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.barraNavegacion:hover
+/*
+.row{
+    display: flex;
+    flex-direction: row;  
+}
+
+.growBig{
+flex-grow: 5;
+}
+
+.growSmall{
+flex-grow: 2;
+}
+
+main{
+    background-color: beige;
+    border: darkslategray;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+table{
+    border: 1px;
+    min-width: 20%;
+}
+
+.column
+
+nav{
+    background-color: blue;
+    padding: 10px;
+}
+
+#conservatorio{
+    color: darkmagenta;
+    background-color: rgb(255, 191, 0);
+    text-align: center;
+}
+
+#anuncios{
+    background-color: cadetblue;
+    align-content: flex-end;
+    align-self: flex-end;
+}
+
+
+
+#semanaCultural{
+    background-color: darkgoldenrod;
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;//
+    width: 500px;
+    height: 800px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+
+#contenedor{
+    background-color: antiquewhite;
+    border-style: groove;
+    border: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer,#header{
+    background-color: coral;
+    border: groove;
+    margin: 10px;
+}
+
+#section{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+}
+
+main{
+    border: solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.barraNavegacion:hover
+
+table{
+    border: 1px;
+    min-width: 20%;
+}
+
+img{
+    max-width: 10em;
+    max-height: 4em;
+}
+
+#imagenPentagrama{
+    width: 10em;
+    height: 6em;
+}

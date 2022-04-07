@@ -1,0 +1,22 @@
+*{
+    background-color: antiquewhite;
+    padding: 0.5em;
+}
+
+.conservatorio{
+    font-family: cursive;
+    color: brown;
+    text-align: center;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}

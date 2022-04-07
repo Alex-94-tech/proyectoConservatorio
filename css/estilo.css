@@ -1,0 +1,45 @@
+* {
+    background-color: azure;
+}
+
+#contenedor{
+    padding: 2em;
+    margin: 1em;
+}
+
+#conservatorio{
+    color: darkmagenta;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.barra{
+    background-color: blue;
+}
+
+.audiciones,tr,td{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2em;
+    text-align: center;
+    justify-content: center;
+    max-height: 0.4em;
+}
+
+/* .fila{
+    display: flex;
+    flex-direction: row;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+} */
+
+table{
+    margin-left: 100px;
+}
+
+img{
+    max-height: 12em;
+    min-width: 0.5em;
+}

@@ -1,0 +1,41 @@
+*{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.barraNavegacion:hover
+
+#luthier{
+    height: 5px;
+    width: 10px;
+}
+
+main{
+    background-color: beige;
+    border: darkslategray;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+aside{
+    position: absolute;
+}
+
+table{
+    flex-wrap: wrap;
+}

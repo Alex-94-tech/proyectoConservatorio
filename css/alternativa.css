@@ -1,0 +1,13 @@
+main{
+    display: flex;
+}
+
+.fila{
+
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}

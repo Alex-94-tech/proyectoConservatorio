@@ -1,0 +1,33 @@
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}
+/* 
+.barraNavegacion{
+    background-color: mediumorchid;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+} */
+
+.barraNavegacion:hover
+
+#conservatorio{
+    color: darkmagenta;
+    background-color: rgb(255, 191, 0);
+    text-align: center;
+}
+
+.tabla{
+    border: solid;
+    min-width: 20%;
+    border-color: black;
+    text-align: center;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}

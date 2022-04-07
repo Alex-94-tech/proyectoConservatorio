@@ -1,0 +1,41 @@
+* {
+    padding: 0.5em;
+}
+
+.barraNavegacion{
+    background-color: salmon;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#conservatorio{
+    color: darkmagenta;
+    background-color: rgb(255, 191, 0);
+    text-align: center;
+}
+
+#ciudad{
+    color: crimson;
+    text-decoration: underline;
+}
+
+img{
+    max-width: 10em;
+    max-height: 12em;
+}
+
+main{
+    background-color: burlywood;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* .cuerdaFrotada{
+    display: flex;
+    flex-wrap: wrap;
+} */

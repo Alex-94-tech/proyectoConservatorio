@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title>Hoja de inscripción</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="conservatorio">CONSERVATORIO PROFESIONAL DE MÚSICA</h1> <br>
+        <h2 id="ciudad">Alcalá de Henares</h2>
+        <nav class="barraNavegacion">
+            <ul>
+                <a href="/index.html" class="barraNavegacion">Inicio</a>
+                <a href="/pages/biografia.html" class="barraNavegacion">Biografía</a>
+                <a href="/pages/galeria.html" class="barraNavegacion">Galería</a>
+                <a href="/pages/contacto.html" class="barraNavegacion">Contacto</a>
+            </ul>
+        </nav>
+        <img src="./img/notas_musicales.webp" alt="Pentagrama con notas">
+        <h3 class="conservatorio">HOJA DE INSCRIPCIÓN A NUESTRA ESCUELA DE MÚSICA</h3>
+    </header>
+    <form action="">
+        <fieldset id="cajaGrande">
+            <legend>Datos personales</legend>
+            <label for="nombres">Nombre</label>
+            <input id="nombre" name="nombre" type="text"> <br> <br>
+            <label for="apellidos">Apellidos</label>
+            <input id="apellido" type="text"> <br> <br>
+            <label for="edad">Edad</label>
+            <input id="edad" name="edad" type="text" placeholder="12"> <br> <br>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input id="fecha" type="date"> <br> <br>
+
+            <div>Sexo
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="hombre">H</label>
+
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+                <label for="mujer">M</label>
+            </div> <br>
+            <fieldset id="cajaMediana">
+                <legend>Sobre ti</legend>
+                <label for="deportes">Deporte favorito</label>
+                <input id="deportes" type="text" placeholder="Baloncesto"> <br> <br>
+                <label for="colores">Color favorito</label>
+                <input id="colores" type="color"> <br> <br>
+
+                <label for="instrumento">¿Qué instrumentos te gustan?</label> <br> <br>
+                <input type="checkbox">Piano <input type="checkbox">Guitarra <input type="checkbox">Violín <input
+                    type="checkbox">Viola <input type="checkbox">Flauta <input type="checkbox">Clarinete <input
+                    type="checkbox">Fagot <br>
+                <input type="checkbox">Trombón <input type="checkbox">Violoncello <input type="checkbox">Contrabajo
+                <input type="checkbox">Saxofón <input type="checkbox">Viola <input type="checkbox">Oboe <input
+                    type="checkbox">Xilófono <br>
+                <input type="checkbox">Tuba <input type="checkbox">Flauta dulce <input type="checkbox">Flauta
+                travesera <input type="checkbox">Trompa <input type="checkbox">Trompeta <br>
+                <input type="checkbox">Arpa <input type="checkbox">Lira <input type="checkbox">Fliscorno <input
+                    type="checkbox">Ocarina <input type="checkbox">Armónica <input type="checkbox">Maracas <input
+                    type="checkbox">Zanfoña
+                <p>Nota: para apuntarte a algún instrumento de viento debes tener al menos 9 años.</p>
+                <label for="curiosidades">Cuéntanos alguna curiosidad:</label> <br>
+                <textarea name="curiosidades" id="curiosidades" cols="30" rows="7"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="numeroTelefono">Número de teléfono</label>
+                <input id="numeroTelefono" type="tel"> <br> <br>
+                <label for="correo">Dirección correo electrónico</label>
+                <input id="correo" type="email"> <br> <br>
+                <label for="ciudades">Ciudad de nacimiento</label>
+                <select name="ciudades" id="ciudades">
+                    <optgroup label="ciudades">
+                        <option value="madrid">Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="zaragoza">Zaragoza</option>
+                        <option value="bilbao">Bilbao</option>
+                    </optgroup>
+                </select>
+            </fieldset> <br> <br>
+            <input id="enviar" type="submit" value="Enviar formulario">
+            <input id="reset" type="reset" value="Resetear formulario"> <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
